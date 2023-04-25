@@ -1,16 +1,8 @@
-# newproject
+Napisz program, który będzie posiadał dwa ekrany:
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Główny, wyświetlający dwie szachownice. 
+Każda z nich powinna być wyświetlona na podstawie kontrolera stworzonego z tej samej klasy. Do ich rozróżnienia należy wykorzystać parametr "tag". 
+Pod każdą szachownicą znajduje się przycisk, który przechodzi do ekranu 2, zakładając że ekran 2 będzie zmieniał dane dotyczące kontrolera szachownicy, przy której przycisk się znajduje.
+Ekran 2 zawiera kilka przycisków. 
+Kliknięcie przycisku powoduje zmianę danych FEN z odpowiedniego kontrolera. 
+Następnie zamykane jest okno i następuje powrót do ekranu głównego.
