@@ -1,16 +1,8 @@
-# dual
+Napisz aplikację której szkic wygląda następująco:
+Posiada ona dwa panele (górny i dolny).
 
-A new Flutter project.
+Zadaniem górnego jest wysłanie asynchronicznego zapytania do wpisanej przez użytkownika strony internetowej. Po odebraniu wyniku dlugosc odpowiedzi wpisywana jest do 'response:'.
 
-## Getting Started
+Panel dolny słuzy do zwiększania liczby widocznej w panelu 2. Zwiększenia ma wystąpić 5 sekund po naciśnięciu przycisku.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ważne jest by zadbać o to by zadania wykonywały się asynchronicznie i nie powodowały zablokowania interfejsu użytkownika.
