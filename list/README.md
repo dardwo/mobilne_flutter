@@ -1,16 +1,11 @@
-# list
+Stworzyć aplikację korzystającą z:
+Listy scrollowanej
+Kontrolera GetX
+Która pozwala na wyświetlenie aktualnego zapisu szachowego w postaci listy
 
-A new Flutter project.
+Poniżej lub powyżej powiny istnieć pola/przyciski umożliwiające wstawienie kolejnych elementów w zapisie (posunięć szachowych typu 'd4', 'e5', itp. (nie trzeba sprawdzać poprawności posunięć i zapisu ... dozwolone jest wpisywanie np. 'Ala'.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Lista powinna być scrollowana i powinna umożliwiać dodawanie nieograniczonej liczby ruchów.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dane powinny być przechowywane w kontrolerze i nasłuchiwane za pomocą biblioteki GetX (Obx() => ).
