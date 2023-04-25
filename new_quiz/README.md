@@ -1,16 +1,7 @@
-# new_quiz
+Stworzyć widget StatefulWidget umożliwiający stworzenie ankiety wraz z ustaleniem końcowych punktów.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Założenia:
+Wyświelenie kolejno kilku pytań wpisanych na sztywno w jakiejś map
+Poprawna odpowiedź pytania powinna zawierać się również w map.
+Podczas odpowiadania użytkownik powinien widzieć aktualną liczbe punktów
+Po zakończeniu testu program nie powinien rzucać wyjątku typu wyszliśmy za listę pytań). Można ale nie trzeba dodać przycisk reset pozwalający przejść do początku testu
