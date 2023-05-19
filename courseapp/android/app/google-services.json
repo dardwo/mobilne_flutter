@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1079271870254",
+    "project_id": "courseapp-df70f",
+    "storage_bucket": "courseapp-df70f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079271870254:android:638a6f405bacf04c7734bf",
+        "android_client_info": {
+          "package_name": "com.example.courseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079271870254-eqeguk27mgh0b56fnko7s8td1if4de1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCcK86ErKsfsmzsQZZrHhcO5uscTf0gOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079271870254-eqeguk27mgh0b56fnko7s8td1if4de1u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1079271870254-6a73hcsucgu21904mmfslgtr6vbib3h4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.courseapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
