@@ -1,9 +1,14 @@
 import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:course/controllers/auth_controller.dart';
+import 'package:course/controllers/question_paper/question_paper_controller.dart';
 import 'package:course/firebase_ref/loading_status.dart';
 import 'package:course/firebase_ref/references.dart';
 import 'package:course/models/question_paper_model.dart';
+import 'package:course/screens/home/home_screen.dart';
+import 'package:course/screens/question/result_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 
@@ -80,6 +85,14 @@ class QuestionsController extends GetxController{
     return '$answered out of ${allQuestions.length} answered';
   }
 
+  void jumpToQuestion(int index, {bool isGoBack=true}){
+    questionIndex.value = index;
+    currentQuestion.value = allQuestions[index];
+    if(isGoBack){
+      Get.back();
+    }
+  }
+
   void nextQuestion() {
     if (questionIndex.value >= allQuestions.length - 1) {
       return;
@@ -99,7 +112,7 @@ class QuestionsController extends GetxController{
   _startTimer(int seconds){
     const duration = Duration(seconds: 1);
     remainSeconds = seconds;
-    Timer.periodic(duration, (Timer timer) { 
+    _timer = Timer.periodic(duration, (Timer timer) { 
       if(remainSeconds==0){
         timer.cancel();
       }else{
@@ -109,6 +122,21 @@ class QuestionsController extends GetxController{
         remainSeconds--;
       }
     });
+  }
+
+  void complete(){
+    _timer!.cancel();
+    Get.offAndToNamed(ResultScreen.routeName);
+  }
+
+  void tryAgain(){
+    Get.find<QuestionPaperController>().navigateToQuestions(paper: questionPaperModel,
+    tryAgain: true);
+  }
+
+  void navigateToHomePage(){
+    _timer!.cancel();
+    Get.offNamedUntil(HomeScreen.routeName, (route) => false);
   }
 
 }
