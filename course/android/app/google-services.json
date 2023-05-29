@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "377717585527",
+    "project_id": "course-d9b57",
+    "storage_bucket": "course-d9b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377717585527:android:c309cacf8e2e2afb30f872",
+        "android_client_info": {
+          "package_name": "com.example.course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377717585527-ghvu3p7ra4pnkh8lctka3fu18t8i418q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkd2HsAzKbfXAfI87E7aPlzYOK6B7iS0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377717585527-ghvu3p7ra4pnkh8lctka3fu18t8i418q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "377717585527-0cuhcb0q530pj05musv9nqjptbqrcifk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.course.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

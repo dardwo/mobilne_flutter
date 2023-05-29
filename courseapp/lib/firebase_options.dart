@@ -49,6 +49,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1079271870254',
     projectId: 'courseapp-df70f',
     authDomain: 'courseapp-df70f.firebaseapp.com',
+    databaseURL: 'https://courseapp-df70f-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'courseapp-df70f.appspot.com',
     measurementId: 'G-8F1SN2ZLBN',
   );
@@ -58,6 +59,7 @@ class DefaultFirebaseOptions {
     appId: '1:1079271870254:android:638a6f405bacf04c7734bf',
     messagingSenderId: '1079271870254',
     projectId: 'courseapp-df70f',
+    databaseURL: 'https://courseapp-df70f-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'courseapp-df70f.appspot.com',
   );
 
@@ -66,6 +68,7 @@ class DefaultFirebaseOptions {
     appId: '1:1079271870254:ios:20a0da9800a512107734bf',
     messagingSenderId: '1079271870254',
     projectId: 'courseapp-df70f',
+    databaseURL: 'https://courseapp-df70f-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'courseapp-df70f.appspot.com',
     iosClientId: '1079271870254-6a73hcsucgu21904mmfslgtr6vbib3h4.apps.googleusercontent.com',
     iosBundleId: 'com.example.courseapp',
@@ -76,6 +79,7 @@ class DefaultFirebaseOptions {
     appId: '1:1079271870254:ios:802e94244640806d7734bf',
     messagingSenderId: '1079271870254',
     projectId: 'courseapp-df70f',
+    databaseURL: 'https://courseapp-df70f-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'courseapp-df70f.appspot.com',
     iosClientId: '1079271870254-ob6014m6ckuqgf525794tlcp5ede1g2m.apps.googleusercontent.com',
     iosBundleId: 'com.example.courseapp.RunnerTests',
